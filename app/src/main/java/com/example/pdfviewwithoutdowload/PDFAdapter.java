@@ -57,7 +57,8 @@ public class PDFAdapter extends RecyclerView.Adapter<PDFAdapter.Holder> {
         }
 
         @Override
-        public void onClick(View view) {
+        public void onClick(View v) {
+            itemClickListener.onClick(v,getAdapterPosition(), false);
 
         }
     }

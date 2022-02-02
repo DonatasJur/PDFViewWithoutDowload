@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/PDFViewWithoutDowload/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android/PDFViewWithoutDowload/app/src/main/res/layout/activity_pdfactivity.xml" value="0.1" />
+        <entry key="..\:/Android/PDFViewWithoutDowload/app/src/main/res/layout/activity_pdfview.xml" value="0.1" />
         <entry key="..\:/Android/PDFViewWithoutDowload/app/src/main/res/layout/pdf_item.xml" value="0.5" />
       </map>
     </option>
