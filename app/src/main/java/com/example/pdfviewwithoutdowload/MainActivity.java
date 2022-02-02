@@ -27,8 +27,10 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.RV);
 
         list = new ArrayList<>();
-        list.add(new PDFModel("PDF One", "https://foreverliving.app.box.com/file/913349516266?s=cwyz87ezbw2xve8pbuki2tajoohg4xez"));
+        list.add(new PDFModel("PDF One", "https://manybooks.net/book/122217/read#epubcfi(/6/2[titlepage]!/4/1:0)"));
+//        list.add(new PDFModel("PDF One", "https://foreverliving.app.box.com/file/913349516266?s=cwyz87ezbw2xve8pbuki2tajoohg4xez"));
         list.add(new PDFModel("PDF Two", "https://foreverliving.app.box.com/file/913343765167"));
+        list.add(new PDFModel("PDF Three", "http://www.pdf995.com/samples/pdf.pdf"));
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
