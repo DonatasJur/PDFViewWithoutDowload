@@ -30,7 +30,7 @@ public class PDFAdapter extends RecyclerView.Adapter<PDFAdapter.Holder> {
     @Override
     public Holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(context).inflate(R.layout.pdf_item, parent, false);
-        Holder holder =new Holder (v);
+        Holder holder = new Holder(v);
         return holder;
     }
 
@@ -53,12 +53,12 @@ public class PDFAdapter extends RecyclerView.Adapter<PDFAdapter.Holder> {
             super(itemView);
             pdfName = itemView.findViewById(R.id.TV);
             imageView = itemView.findViewById(R.id.IV);
-            imageView.setOnClickListener(this);
+            itemView.setOnClickListener(this);
         }
 
         @Override
         public void onClick(View v) {
-            itemClickListener.onClick(v,getAdapterPosition(), false);
+            itemClickListener.onClick(v, getAdapterPosition(), false);
 
         }
     }
